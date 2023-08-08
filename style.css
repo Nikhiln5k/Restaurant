@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(12, 23, 29) !important;
+    font-family: 'Righteous', cursive !important;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background:linear-gradient(black, rgb(12, 23, 29))
+}
+
+
+
+/* header section */
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    align-items: center;
+    width: 85%;
+}
+
+.navbar img{
+    width: 160px;
+}
+
+.link-items{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.link-items a{
+    text-decoration: none !important;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+.link-items a:hover{
+    color: rgb(212, 121, 36);
+}
+
+
+
+/* content section */
+
+
+
+.content{
+    position: absolute;
+    top: 40%;
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+    right: 30px;
+}
+
+.content h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(212, 121, 36);
+    font-family: 'Righteous', cursive;
+}
+.content p{
+    margin-top: 20px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.image{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.image img{
+    width: 40%;
+}
+
+
+
+/* Menu section */
+
+
+
+.menu-content{
+    margin-top: 10rem;
+
+}
+.menu-content h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu-content span{
+    color: rgb(212, 121, 36);
+}
+
+
+.card-menu{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.menu-container{
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(80, 80, 80);
+    box-shadow: 10px 5px 26px rgb(19, 19, 19);
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container{
+    width: 100%;
+    height: 350px;
+    background: transparent;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.menu-container h1{
+    color: rgb(170, 170, 170);
+    font-size: 25px !important;
+    
+}
+
+.image-container img:hover{
+    transform: scale(1.2);
+}
+
+.card-menu2{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+
+
+
+/* About section */
+
+
+
+#about{
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+.about-heading{
+    width: 100%;
+}
+
+.about-heading h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.about-heading span{
+    color: rgb(212, 121, 36);
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+    
+.sheff-image img{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+}
+.about-us h2{
+    color: rgb(212, 121, 36);
+}
+.about-us p{
+    margin-top: 15px;
+}
+
+.about-us{
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+
+
+/* contact section */
+
+
+#contact{
+    margin-top: 40px;
+    height: 100vh;
+}
+
+.contact-heading h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contact-heading span{
+    color: rgb(212, 121, 36);
+}
+
+.contact-container{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.map iframe{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(19, 19, 19);
+}
+.phone{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 6px;
+    padding: 5px !important;
+    align-items: center;
+}
+.phone p{
+    margin-left: 4px;
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+.phone i{
+    color: rgb(212, 121, 36);
+    font-size: 20px;
+}
+.feedback{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(19, 19, 19);
+}
+
+.feedback h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.feedback span{
+    color: rgb(212, 121, 36);
+}
+
+.feedback form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback input{
+    margin-top: 20px;
+    background: transparent;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    color: whitesmoke;
+}
+
+.feedback button{
+    margin-top: 4rem;
+    height: 2rem;
+    background-color: rgb(212, 121, 36);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.feedback button:hover{
+    background-color: rgb(172, 90, 14);
+}
+
+.icon-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a{
+    color: rgb(212, 121, 36) !important;
+}
+
+.icons{
+    padding: 50px;
+    font-size: 2.4rem;
+   
+}
+
+.icons:hover{
+    text-align: center;
+    animation: bounce 0.75s;
+}
+
+@keyframes bounce{
+    10%{
+        transform: scale(1.5);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    30%{
+        transform: scale(1.5);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+}
+
+hr{
+    position: relative;
+    top: 2rem;
+    width: 700px;
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 4rem;
+    width: 100%;
+    height: 20vh;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+footer span{
+    color: rgb(212, 121, 36);
+}
+
+.uparrow{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(212, 121, 36) !important;
+}
+
+.uparrow i{
+    font-size: 70px;
+}
+
