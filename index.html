@@ -9,12 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@300;400&family=Righteous&family=Roboto+Condensed:wght@300;400;700&family=Teko:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="body">
         <div id="container">
             
-                <nav class="navbar">
+                <nav class="navbar" data-aos="fade-down" data-aos-duration="2000">
                     
                         <img src="./images/logo.png" alt="">
     
@@ -29,24 +34,24 @@
             <!-- home page -->
     
             <section id="home">
-                    <div class="image">
+                    <div class="image" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1500">
                         <img src="./images/home.png" alt="">
                     </div>
     
                     <div class="content">
-                        <h1>Thattukada</h1>
-                        <p>This is small food joint serving some kerala delicacies along with chinese food. The joint well maintained. We had Chicken Fried rice, Porrotta and Beef Roast.</p>
+                        <h1 data-aos="fade-up" data-aos-duration="2000">Thattukada</h1>
+                        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">This is small food joint serving some kerala delicacies along with chinese food. The joint well maintained. We had Chicken Fried rice, Porrotta and Beef Roast.</p>
                     </div>
                 
             </section>
     
     <!-- Menu section -->
-            <section id="menu">
-                <div class="menu-content">
+            <section id="menu" >
+                <div class="menu-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                     <h2>Food <span>Menu</span></h2>
                 </div>
     
-                <div class="card-menu">
+                <div class="card-menu" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600" data-aos-offset="1">
                     <div class="menu-container">
                         <div class="image-container">
                             <img src="./images/uunu.png" alt="">
@@ -72,7 +77,7 @@
                         <h1>Porotta</h1>
                     </div>
                 </div>
-                <div class="card-menu2">
+                <div class="card-menu2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                     <div class="menu-container">
                         <div class="image-container">
                             <img src="./images/chapathi chiken.png" alt="">
@@ -101,16 +106,16 @@
             </section>
     <!-- About section -->
     
-            <section id="about">
+            <section id="about" data-aos="fade-up" data-aos-duration="2000">
                 <div class="about-heading">
                     <h2>About <span>Us</span></h2>
                 </div>
                 <div class="about-content">
-                    <div class="sheff-image">
+                    <div class="sheff-image" data-aos="fade-zoom-in" data-aos-duration="2000">
                         <img src="./images/sheff.png" alt="">
                     </div>
                     
-                    <div class="about-us">
+                    <div class="about-us" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Thattukada</h2>
                         <p>Since our modest beginnings in 2005 with a little space in Toronto’s stylish Yorkville locale, ‘Thattukada’ ‘s development has been enlivened with the energy to cook and serve solid, Indian-roused takeout food. <br><br>
 
@@ -126,13 +131,13 @@
 
             <!-- contact section -->
 
-            <section id="contact">
+            <section id="contact" data-aos="fade-up" data-aos-duration="2000">
                 <div class="contact-heading">
                     <h2>Contact <span>Us</span></h2>
                 </div>
 
-                <div class="contact-container">
-                    <div class="map">
+                <div class="contact-container" data-aos="fade-zoom-in" data-aos-duration="2000">
+                    <div class="map" data-aos="zoom-in" data-aos-duration="2000">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.738360855066!2d76.3312817118873!3d10.007883697434233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1690780011734!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         <div class="phone"><i class="fa brands fa-phone"></i><p>: 91+7597935710</p>
@@ -140,7 +145,7 @@
                     </div>
 
 
-                    <div class="feedback">
+                    <div class="feedback" data-aos="fade-up-left" data-aos-duration="2000">
                         <h2>Leave your <span>Feedback</span></h2>
                         <form action="">
                             <input type="text" placeholder="Enter your Name">
@@ -149,7 +154,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="icon-container">
+                <div class="icon-container" data-aos="fade-up" data-aos-duration="2000">
                     <div class="icons"><a href="#"><i class="fa-brands fa-facebook-f"></a></i></div>
                     <div class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
                     <div class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
@@ -159,14 +164,20 @@
             </section>
             <br><br>
             
-            <hr>
+            <hr data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
 
-            <footer>
+            <footer >
                 <p>&copy; My resturant Website 2023, All right reserved &reg;, <span>Thattukada</span></p>
-                <a class="uparrow" href="#container"><i class="fa-solid fa-angle-up fa-bounce"></i></a>
+                <a class="uparrow" href="#container" ><i class="fa-solid fa-angle-up fa-bounce"></i></a>
             </footer>
     
         </div>
     </div>
 </body>
+
+
+<script>
+    AOS.init();
+  </script>
+
 </html>
